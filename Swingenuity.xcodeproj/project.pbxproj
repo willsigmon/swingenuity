@@ -49,10 +49,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F10000070000000000000001 /* Swingenuity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swingenuity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10000020000000000000001 /* SwingenuityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingenuityApp.swift; sourceTree = "<group>"; };
 		F10000040000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F10000060000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F10000070000000000000001 /* Swingenuity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swingenuity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F10000080000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F10000110000000000000001 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
 		F10000130000000000000001 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
@@ -474,7 +474,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 49HAGQE8FB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Swingenuity/Info.plist;
@@ -510,7 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 49HAGQE8FB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Swingenuity/Info.plist;
@@ -542,20 +542,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F10000AC0000000000000001 /* Build configuration list for PBXProject "Swingenuity" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F10000B10000000000000001 /* Debug */,
-				F10000B20000000000000001 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		F100000E0000000000000001 /* Build configuration list for PBXNativeTarget "Swingenuity" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F10000B30000000000000001 /* Debug */,
 				F10000B40000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10000AC0000000000000001 /* Build configuration list for PBXProject "Swingenuity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10000B10000000000000001 /* Debug */,
+				F10000B20000000000000001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
