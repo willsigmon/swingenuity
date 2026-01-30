@@ -16,6 +16,7 @@
 		F10000160000000000000001 /* SwingMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000170000000000000001 /* SwingMetrics.swift */; };
 		F10000180000000000000001 /* SwingSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000190000000000000001 /* SwingSession.swift */; };
 		F1000020000000000000001A /* SwingPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000021000000000000001A /* SwingPhase.swift */; };
+		F1000022000000000000001B /* SkillLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000023000000000000001B /* SkillLevel.swift */; };
 		F10000300000000000000001 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000310000000000000001 /* CameraManager.swift */; };
 		F10000320000000000000001 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000330000000000000001 /* CameraPreviewView.swift */; };
 		F10000340000000000000001 /* DepthProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000350000000000000001 /* DepthProcessor.swift */; };
@@ -46,6 +47,19 @@
 		F100009A0000000000000001 /* CameraRecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100009B0000000000000001 /* CameraRecordViewModel.swift */; };
 		F100009C0000000000000001 /* AnalysisResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100009D0000000000000001 /* AnalysisResultViewModel.swift */; };
 		F100009E0000000000000001 /* SwingHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100009F0000000000000001 /* SwingHistoryViewModel.swift */; };
+		F1000A010000000000000001 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A020000000000000001 /* AppCoordinator.swift */; };
+		F1000A030000000000000001 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A040000000000000001 /* DesignTokens.swift */; };
+		F1000A050000000000000001 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A060000000000000001 /* UserDefaultsKeys.swift */; };
+		F1000A070000000000000001 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A080000000000000001 /* OnboardingViewModel.swift */; };
+		F1000A090000000000000001 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A0A0000000000000001 /* OnboardingContainerView.swift */; };
+		F1000A0B0000000000000001 /* OnboardingBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A0C0000000000000001 /* OnboardingBackground.swift */; };
+		F1000A0D0000000000000001 /* OnboardingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A0E0000000000000001 /* OnboardingProgressView.swift */; };
+		F1000A0F0000000000000001 /* OnboardingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A100000000000000001 /* OnboardingButton.swift */; };
+		F1000A110000000000000001 /* WelcomeStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A120000000000000001 /* WelcomeStepView.swift */; };
+		F1000A130000000000000001 /* SportSelectionStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A140000000000000001 /* SportSelectionStepView.swift */; };
+		F1000A150000000000000001 /* SkillLevelStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A160000000000000001 /* SkillLevelStepView.swift */; };
+		F1000A170000000000000001 /* HandednessStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A180000000000000001 /* HandednessStepView.swift */; };
+		F1000A190000000000000001 /* PermissionsStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1000A1A0000000000000001 /* PermissionsStepView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +74,7 @@
 		F10000170000000000000001 /* SwingMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingMetrics.swift; sourceTree = "<group>"; };
 		F10000190000000000000001 /* SwingSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingSession.swift; sourceTree = "<group>"; };
 		F1000021000000000000001A /* SwingPhase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingPhase.swift; sourceTree = "<group>"; };
+		F1000023000000000000001B /* SkillLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLevel.swift; sourceTree = "<group>"; };
 		F10000310000000000000001 /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
 		F10000330000000000000001 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
 		F10000350000000000000001 /* DepthProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthProcessor.swift; sourceTree = "<group>"; };
@@ -90,6 +105,19 @@
 		F100009B0000000000000001 /* CameraRecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraRecordViewModel.swift; sourceTree = "<group>"; };
 		F100009D0000000000000001 /* AnalysisResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisResultViewModel.swift; sourceTree = "<group>"; };
 		F100009F0000000000000001 /* SwingHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingHistoryViewModel.swift; sourceTree = "<group>"; };
+		F1000A020000000000000001 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		F1000A040000000000000001 /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		F1000A060000000000000001 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
+		F1000A080000000000000001 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		F1000A0A0000000000000001 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		F1000A0C0000000000000001 /* OnboardingBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingBackground.swift; sourceTree = "<group>"; };
+		F1000A0E0000000000000001 /* OnboardingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingProgressView.swift; sourceTree = "<group>"; };
+		F1000A100000000000000001 /* OnboardingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingButton.swift; sourceTree = "<group>"; };
+		F1000A120000000000000001 /* WelcomeStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeStepView.swift; sourceTree = "<group>"; };
+		F1000A140000000000000001 /* SportSelectionStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportSelectionStepView.swift; sourceTree = "<group>"; };
+		F1000A160000000000000001 /* SkillLevelStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillLevelStepView.swift; sourceTree = "<group>"; };
+		F1000A180000000000000001 /* HandednessStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandednessStepView.swift; sourceTree = "<group>"; };
+		F1000A1A0000000000000001 /* PermissionsStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionsStepView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +144,8 @@
 			children = (
 				F10000020000000000000001 /* SwingenuityApp.swift */,
 				F10000040000000000000001 /* ContentView.swift */,
+				F1000A000000000000000001 /* Core */,
+				F1000A200000000000000001 /* Features */,
 				F1000010000000000000000F /* Models */,
 				F10000300000000000000030 /* Camera */,
 				F10000500000000000000050 /* Analysis */,
@@ -135,6 +165,65 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		F1000A000000000000000001 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F1000A020000000000000001 /* AppCoordinator.swift */,
+				F1000A040000000000000001 /* DesignTokens.swift */,
+				F1000A210000000000000001 /* Storage */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		F1000A210000000000000001 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				F1000A060000000000000001 /* UserDefaultsKeys.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		F1000A200000000000000001 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F1000A220000000000000001 /* Onboarding */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F1000A220000000000000001 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				F1000A080000000000000001 /* OnboardingViewModel.swift */,
+				F1000A0A0000000000000001 /* OnboardingContainerView.swift */,
+				F1000A230000000000000001 /* Components */,
+				F1000A240000000000000001 /* Steps */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		F1000A230000000000000001 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F1000A0C0000000000000001 /* OnboardingBackground.swift */,
+				F1000A0E0000000000000001 /* OnboardingProgressView.swift */,
+				F1000A100000000000000001 /* OnboardingButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F1000A240000000000000001 /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				F1000A120000000000000001 /* WelcomeStepView.swift */,
+				F1000A140000000000000001 /* SportSelectionStepView.swift */,
+				F1000A160000000000000001 /* SkillLevelStepView.swift */,
+				F1000A180000000000000001 /* HandednessStepView.swift */,
+				F1000A1A0000000000000001 /* PermissionsStepView.swift */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
 		F1000010000000000000000F /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +233,7 @@
 				F10000170000000000000001 /* SwingMetrics.swift */,
 				F10000190000000000000001 /* SwingSession.swift */,
 				F1000021000000000000001A /* SwingPhase.swift */,
+				F1000023000000000000001B /* SkillLevel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -310,6 +400,7 @@
 				F10000160000000000000001 /* SwingMetrics.swift in Sources */,
 				F10000180000000000000001 /* SwingSession.swift in Sources */,
 				F1000020000000000000001A /* SwingPhase.swift in Sources */,
+				F1000022000000000000001B /* SkillLevel.swift in Sources */,
 				F10000300000000000000001 /* CameraManager.swift in Sources */,
 				F10000320000000000000001 /* CameraPreviewView.swift in Sources */,
 				F10000340000000000000001 /* DepthProcessor.swift in Sources */,
@@ -340,6 +431,19 @@
 				F100009A0000000000000001 /* CameraRecordViewModel.swift in Sources */,
 				F100009C0000000000000001 /* AnalysisResultViewModel.swift in Sources */,
 				F100009E0000000000000001 /* SwingHistoryViewModel.swift in Sources */,
+				F1000A010000000000000001 /* AppCoordinator.swift in Sources */,
+				F1000A030000000000000001 /* DesignTokens.swift in Sources */,
+				F1000A050000000000000001 /* UserDefaultsKeys.swift in Sources */,
+				F1000A070000000000000001 /* OnboardingViewModel.swift in Sources */,
+				F1000A090000000000000001 /* OnboardingContainerView.swift in Sources */,
+				F1000A0B0000000000000001 /* OnboardingBackground.swift in Sources */,
+				F1000A0D0000000000000001 /* OnboardingProgressView.swift in Sources */,
+				F1000A0F0000000000000001 /* OnboardingButton.swift in Sources */,
+				F1000A110000000000000001 /* WelcomeStepView.swift in Sources */,
+				F1000A130000000000000001 /* SportSelectionStepView.swift in Sources */,
+				F1000A150000000000000001 /* SkillLevelStepView.swift in Sources */,
+				F1000A170000000000000001 /* HandednessStepView.swift in Sources */,
+				F1000A190000000000000001 /* PermissionsStepView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +582,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Swingenuity/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Swingenuity needs camera access to record and analyze your sports swing.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Swingenuity needs microphone access to record audio with your swing videos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -514,6 +619,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Swingenuity/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Swingenuity needs camera access to record and analyze your sports swing.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Swingenuity needs microphone access to record audio with your swing videos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
