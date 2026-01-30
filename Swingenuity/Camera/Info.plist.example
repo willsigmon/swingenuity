@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Add these entries to your app's Info.plist file
+  Location: Swingenuity/Info.plist (or configure in Xcode target settings)
+-->
+<plist version="1.0">
+<dict>
+    <!-- Camera Permission -->
+    <key>NSCameraUsageDescription</key>
+    <string>Camera access is required to record and analyze your golf swing with LiDAR depth tracking</string>
+
+    <!-- Photo Library Write Permission -->
+    <key>NSPhotoLibraryAddUsageDescription</key>
+    <string>Save swing recordings to your photo library for easy access and sharing</string>
+
+    <!-- Photo Library Read Permission (if you plan to load previous recordings) -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Access your saved swing recordings for analysis and comparison</string>
+</dict>
+</plist>
